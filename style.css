@@ -1,0 +1,95 @@
+/* CSS Variables */
+:root {
+  --offred: #EF4F50;
+  --hoverred: #F06060;
+  --offmiddle: #779098;
+  --white: #ffffff;
+}
+
+/* Font Classes */
+.cursive-font {
+  font-family: 'Over the Rainbow', cursive;
+}
+
+.sans-serif-font {
+  font-family: 'Pathway Gothic One', sans-serif;
+}
+
+/* Top section */
+#top {
+  font-family: 'Over the Rainbow', cursive;
+  color: var(--offred);
+  text-align: center;
+  font-size: 3em;
+}
+
+/* Paragraphs */
+p {
+  line-height: 1em;
+}
+
+/* Button Styling */
+button {
+  font-family: 'Over the Rainbow', cursive;
+  color: var(--white);
+  box-shadow: 0 4px #ab3c3c;
+  -webkit-transition: none;
+  -moz-transition: none;
+  transition: none;
+  padding: 8px 80px;
+  border-radius: 20px;
+  border: none;
+  background-color: var(--hoverred);
+  font-size: 0.4em;
+}
+
+button:hover {
+  background-color: var(--offred);
+  cursor: pointer;
+  box-shadow: 0 6px #ab3c3c;
+  top: 2px;
+}
+
+button:active {
+  box-shadow: 0 0 #ab3c3c;
+  top: 6px;
+}
+
+/* Bottom Section */
+#bottom {
+  margin-top: 1em;
+  background-color: var(--offred);
+  position: relative;
+  display: none;
+  margin-bottom: 3em;
+  font-family: 'Over the Rainbow', cursive;
+  color: var(--white);
+  text-align: center;
+  width: 100%;
+  padding-top: 2em;
+  padding-bottom: 5em;
+  font-size: 2.5em;
+}
+
+/* Close button */
+.close {
+  float: right;
+  padding: 0.25em;
+  background: #fff;
+  font-family: serif;
+  cursor: pointer;
+  color: var(--offmiddle);
+  font-size: 0.5em;
+  margin-top: -4em;
+}
+
+/* Sign-off text */
+.sign-off {
+  margin-top: 3em;
+  font-size: 1.3em;
+}
+
+/* Name Styling */
+.name {
+  margin-left: 50px;
+}
